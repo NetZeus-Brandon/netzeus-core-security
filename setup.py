@@ -5,7 +5,7 @@ with open("README.md", "r") as fs:
 
 setup(
     name="netzeus_core_security",
-    version="0.0.1",
+    version="0.0.2",
     description="NetZeus Core Security module for managing security context across all microservices/plugins",
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -17,6 +17,6 @@ setup(
         "bcrypt>=4.0.0",
         "passlib>=1.7.4",
         "PyJWT>=1.7.1",
-        "fastapi>=0.88.0"
-    ]
+        "fastapi>=0.88.0",
+    ],
 )
